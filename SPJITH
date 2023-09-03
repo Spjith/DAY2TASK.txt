@@ -1,0 +1,40 @@
+DIFFERNCE BETWEEN THE DOCUMENT AND WINDOWS OBJECT.
+A document is an object inside the window object and we use a document object for manipulation inside the document.
+The first thing that gets loaded into the browser is the window and the properties related to that window are stored in the window object.
+When an HTML document is loaded into a web browser, it becomes a document object.
+The document object is the root node of the HTML document. The document object is a property of the window object.
+
+DOCUMENT;
+It represents any HTML document or web page that is loaded in the browser.
+It is loaded inside the window.
+t is the object of window property.
+All the tags, elements with attributes in HTML are part of the document.
+We can access the document from a window using the window. document
+The document is part of BOM (browser object model) and dom (Document object model)
+Properties of document objects such as title, body, cookies, etc can also be accessed by a window like this window. document.title
+syntax: document.propertyname;
+example:document.title :  will return the title of the document.
+activeElement	Returns the currently focused element in the document
+addEventListener()	Attaches an event handler to the document
+adoptNode()	Adopts a node from another document
+baseURI	Returns the absolute base URI of a document
+body	Sets or returns the document's body (the <body> element)
+characterSet	Returns the character encoding for the document
+
+WINDOWS;
+It represents a browser window or frame that displays the contents of the webpage.   
+It is the very first object that is loaded in the browser.
+It is the object of the browser.
+Global objects, functions, and variables of JavaScript are members of the window object.
+We can access the window from the window only. i.e. window.window
+The window is part of BOM, not DOM.
+Properties of the window object cannot be accessed by the document object.
+syntax:window.propertyname;
+example:window.innerHeight : will return the height of the content area of the browser
+customElements: It returns a reference to the CustomElementRegistry object, which can be used to register new custom elements and also get information about already registered custom elements.
+crypto: It returns the browser crypto object.
+devicePixelRatio: It returns the ratio between physical pixels and device-independent pixels in the current display.
+Document: It returns a reference to the document object of that window.
+DOMMatrix: It returns a reference to a DOMMatrix object, which represents 4×4 matrices, suitable for 2D and 3D operations.
+frames[]: It represents an array that contains all the frames of a given window.
+DOMPoint: It returns a reference to a DOMPoint object, which represents a 2D or 3D point in a coordinate system.
